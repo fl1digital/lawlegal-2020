@@ -1,0 +1,18 @@
+@import url(http://fonts.googleapis.com/css?family=Nixie+One);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic);
+.logo strong, .rightcol .widget li span{
+	font-family: 'PT Sans', sans-serif;
+}
+.logo span, .showcase h2, .page-header .entry p  {
+	font-family: 'Nixie One', cursive;
+	font-weight:400;
+}
+.portfolio p, .entry h1, .entry h2, .entry h3, .entry h4, .entry h6, .rightcol .widget h4, .rightcol .widget li span, .post h3, #comment h3, #comment li h4, #respond h4 {
+	font-weight:700;
+}
+.portfolio p span {
+	font-weight:400;
+}
+.widget-blog p span, .rightcol .widget li, .post .date, .post header .meta  {
+	font-family:Georgia, "Times New Roman", Times, serif;
+}

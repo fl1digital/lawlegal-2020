@@ -1,0 +1,389 @@
+/*-----------------------------------------------------------------------------------
+	Theme Name: williams
+	Theme URI: 
+	Description: A williams Theme
+	Author: williams & company
+	Author URI: 
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.2.3
+	
+	Designed & Handcrafted by IMICreation
+	All files, unless otherwise stated, are released under the GNU General Public License
+	version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
+-----------------------------------------------------------------------------------
+	0.	CSS Reset & Clearfix
+	1.	Document Setup (body, common classes, vertical rhythm, structure etc)
+	3.	Header Styles
+	4.	Navigation & Menus
+	5.	Main Content Styles
+	6.	Post Content Styles
+	7.	Comments
+	8.	Pagination
+	9.	Footer Styles
+	10.	Page Templates
+	11.	Widgets
+	12.	Sortcode Styles
+	13.	Homepage Elements
+	14.	Portfolio Sorter
+-----------------------------------------------------------------------------------*/
+/*  CSS definations for Williams & Co  */
+/*-------------------------------------------------------------------------------------------
+
+INDEX:
+
+0. RESET
+
+1. SETUP
+1.1 Defaults
+1.2 Common Tages
+
+2. SITE STRUCTURE & APPEARANCE
+2.1 Header
+	2.1.1 Contact-info
+	2.1.2 Logo
+	2.1.3 Search
+	2.1.4 Navigation
+2.2 Container
+	2.2.1 Sub-nav
+	2.2.2 Showcase
+	2.2.3 Entry
+	2.2.4 Client-logo
+2.3 Footer
+	2.3.1 Footer-link
+
+-------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------*/
+/* 0. RESET */
+/*-------------------------------------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+	outline:none;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* 1. SETUP */
+/*-------------------------------------------------------------------------------------------*/
+
+/* 1.1 Defaults */
+h1, h2, h3, h4, h5, h6, strong {
+	font-weight:bold;
+}
+i, em {
+	font-style:italic;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.alignleft {
+	text-align:left;
+}
+.alignright {
+	text-align:right;
+}
+.aligncenter {
+	text-align:center;
+}
+.clear {
+	clear:both;
+	line-height:1px;
+	height:1px;
+}
+textarea {
+	overflow:auto;
+	font-family:Arial, Helvetica, sans-serif; /* Body Font Family Will Come Here */
+}
+a {
+	color:#333;
+	text-decoration:none;
+}
+a:hover {
+	color:#000;
+}
+address {
+	font-style:normal;
+}
+/* 1.2 Common Tages */
+
+/*-------------------------------------------------------------------------------------------*/
+/* 2. SITE STRUCTURE & APPEARANCE */
+/*-------------------------------------------------------------------------------------------*/
+body {
+	background:#fff;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#333;
+}
+.box {
+	width:960px;
+	margin:0 auto;
+}
+
+/* 2.1 Header */
+.header {
+	background:url(images/bg_header.png) repeat-x left top;
+	padding:8px 0 0 0;
+}
+/* 2.1.1 Contact-info */
+.contact-info {
+	width:366px;
+	float:left;
+	padding:21px 0 0 6px;
+	font-size:18px;
+	color:#2f343a;
+	font-weight:bold;
+}
+.contact-info .phone {
+	background:url(images/ico_phone.png) no-repeat left center;
+	display:block;
+	margin-bottom:3px;
+	padding-left:28px;
+}
+.contact-info .mail {
+	background:url(images/ico_mail.png) no-repeat left 4px;
+	display:block;
+	padding-left:28px;
+	font-size:15px;
+	color:#9f00d3;
+}
+.contact-info .mail a {
+	color:#9f00d3;
+}
+.contact-info .mail a:hover {
+	color:#2f343a;
+}
+/* 2.1.2 Logo */
+.logo {
+	width:175px;
+	height:62px;
+	float:left;
+	margin:13px 20px 9px 20px;
+}
+/* 2.1.3 Search */
+.search-box {
+	width:373px;
+	float:left;
+	padding:23px 0 0 0;
+}
+.search-box form {
+	border:1px solid #e1e1e2;
+	border-left:3px solid #383c42;
+	background:#fff;
+	float:right;
+}
+.search-box .input {
+	background:none;
+	border:none;
+	width:215px;
+	height:20px;
+	float:left;
+	padding:8px 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#2f343a;
+	line-height:20px;
+	text-transform:uppercase;
+}
+.search-box .button {
+	background:url(images/ico_search-box.png) no-repeat left top;
+	border:none;
+	width:12px;
+	height:12px;
+	float:left;
+	margin:12px 12px 0 0;
+	cursor:pointer;
+	text-indent:-9999px;
+}
+/* 2.1.4 Navigation */
+.navigation {
+	background:#eff2f5;
+	min-height:34px;
+	padding:13px 12px 15px 12px;
+	font-size:15px;
+	color:#9f00d3;
+	font-weight:bold;
+}
+.navigation li {
+	background:url(images/divider_nav.png) no-repeat right center;
+	float:left;
+	padding:0 14px;
+	line-height:34px;
+}
+.navigation li a {
+	color:#9f00d3;
+}
+.navigation li a:hover, .navigation li.active a {
+	color:#2f343a;
+}
+
+/* 2.2 Container */
+.container {
+	width:100%;
+	padding:7px 0 22px 0;
+}
+.leftcol {
+	width:278px;
+	float:left;
+	margin-right:20px;
+}
+.midcol {
+	width:506px;
+	float:left;
+	margin-right:20px;
+}
+.rightcol {
+	width:136px;
+	float:left;
+}
+/* 2.2.1 Sub-nav */
+.sub-nav {
+	font-size:12px;
+	color:#5d6166;
+}
+.sub-nav-col {
+	background:url(images/bg_sub_nav.png) repeat-x left bottom;
+	padding-bottom:12px;
+}
+.sub-nav h3 {
+	padding:18px 0 10px 0;
+	font-size:20px;
+	color:#9f00d3;
+}
+.sub-nav h3 a {
+	display:block;
+	padding:0 20px 0 8px;
+	color:#9f00d3;
+}
+.sub-nav h3 span {
+	background:url(images/arrow.png) no-repeat right 12px;
+	display:block;
+}
+.sub-nav ul {
+	padding:0 20px 0 5px;
+}
+.sub-nav li {
+	background:url(images/bg_sub_nav_li.png) repeat-x left bottom;
+	line-height:34px;
+}
+.sub-nav li a {
+	color:#5d6166;
+}
+.sub-nav li a:hover {
+	color:#000;
+}
+/* 2.2.2 Showcase */
+.showcase {
+	width:100%;
+	padding-bottom:20px;
+}
+/* 2.2.3 Entry */
+.entry {
+	padding:0 0 0 0;
+}
+.entry h1 {
+	padding-bottom:20px;
+	font-size:24px;
+	color:#2f343a;
+	font-weight:normal;
+}
+.entry p {
+	line-height:19px;
+	padding-bottom:18px;
+}
+/* 2.2.4 Client-logo */
+.client-logo {
+	width:100%;
+	padding-top:20px;
+}
+.client-logo li {
+	text-align:center;
+	padding-bottom:10px;
+}
+
+/* 2.3 Footer */
+.footer {
+	background:url(images/bg_footer.png) repeat-x left top;
+	width:100%;
+	padding:25px 0 25px 0;
+	font-size:12px;
+	color:#2f343a;
+	font-weight:bold;
+}
+.footer p {
+	line-height:19px;
+	padding-bottom:10px;
+}
+.footer a {
+	color:#2f343a;
+}
+.footer a:hover {
+	color:#666;
+}
+.footer .left {
+	width:500px;
+	float:left;
+	padding:0 0 0 6px;
+	line-height:16px;
+}
+.footer .right {
+	padding:37px 6px 0 0;
+}
+.footer-link {
+	padding-bottom:21px;
+}
+/* 2.3.1 Footer-link */
+.footer-link li {
+	background:url(images/divider_footer.png) no-repeat left 2px;
+	float:left;
+	padding:0 10px 0 16px;
+	font-weight:normal;
+	line-height:14px;
+}
+.footer-link li:first-child {
+	background:none;
+	padding-left:0;
+}
+.footer-link li a {
+	color:#2f343a;
+}
+.footer-link li a:hover {
+	color:#000;
+}
+
+
+/* fonts */ /* fonts */
+.contact-info .phone, .navigation {
+	font-family:Arial, Helvetica, sans-serif;
+}

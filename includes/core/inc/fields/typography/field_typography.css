@@ -1,0 +1,57 @@
+#imic-main .select_wrapper.typography-style span {
+  display: none;
+}
+#imic-main .imic-typography-container .wp-picker-container {
+  float: left;
+}
+#imic-main .imic-typography-container select,
+#imic-main .imic-typography-container .typography-style,
+#imic-main .imic-typography-container .typography-script {
+  float: left;
+  display: block;
+  width: 340px;
+}
+#imic-main .imic-typography-container .typography-family,
+#imic-main .imic-typography-container .typography-family select,
+#imic-main .imic-typography-container .typography-family-backup,
+#imic-main .imic-typography-container .typography-family-backup select {
+  width: 340px !important;
+}
+#imic-main .imic-typography-container .typography-script,
+#imic-main .imic-typography-container .typography-script select {
+  width: 130px !important;
+  margin-right: 0;
+}
+#imic-main .imic-typography-container .typography-style,
+#imic-main .imic-typography-container .typography-style select {
+  width: 125px!important;
+}
+#imic-main .imic-typography-container .select_wrapper {
+  float: left;
+  margin-right: 10px;
+  display: block;
+}
+#imic-main .imic-typography-container .typography-preview {
+  display: block;
+  width: 100%;
+  border: 1px dotted lightgray;
+  max-width: 850px;
+  padding: 10px;
+  font-size: 10pt;
+  height: auto;
+  margin: 5px 0 10px;
+  overflow: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#imic-main .imic-typography-container input.imic-typography-color {
+  float: left;
+  width: 70px;
+  margin-left: 5px;
+  margin-top: 0px;
+}
+#imic-main .imic-typography-container .imic-typography,
+#imic-main .imic-typography-container .typography-color {
+  margin-bottom: 5px;
+}

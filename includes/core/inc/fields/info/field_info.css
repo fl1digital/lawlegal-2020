@@ -1,0 +1,9 @@
+
+.imic-info-field{min-height:20px;padding:5px 19px;margin-top:20px;margin-bottom:15px;border-radius:4px;border:1px solid;position:relative}.imic-info-field h3{color:#777}
+.imic-info-field .imic-info-icon{display:inline-block;margin-right:15px}.imic-info-field .imic-info-icon i{font-size:2em}
+.imic-info-field .imic-info-desc{display:inline-block;vertical-align:top}
+.imic-info-field.imic-normal{background-color:#eee;border-color:#ccc;color:#666}.imic-info-field.imic-normal i{color:#c5c5c5}
+.imic-info-field.imic-warning{background-color:#fbeba4;border-color:#d7c281;color:#958234}.imic-info-field.imic-warning i{color:#dcca81}
+.imic-info-field.imic-success{background-color:#c4ee91;border-color:#71af5d;color:#4d7615}.imic-info-field.imic-success i{color:#a0ca6c}
+.imic-info-field.imic-critical{background-color:#fba1a3;border-color:#b84f5b;color:#981225}.imic-info-field.imic-critical i{color:#dd767d}
+.imic-info-field.imic-info{background-color:#d3e4f4;border-color:#a9b6c2;color:#5c80a1}.imic-info-field.imic-info i{color:#afc6da}

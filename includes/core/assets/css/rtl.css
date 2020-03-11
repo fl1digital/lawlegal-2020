@@ -1,0 +1,21 @@
+#imic-container .imic-action_bar {
+	float: left;
+}
+#imic-container #expand_options , #imic-sidebar , .cb-enable, .cb-disable, .cb-enable span, .cb-disable span
+,#imic-footer #imic-share{
+	float:right;
+}
+#imic-main {
+	border-left: 0px;
+	margin-left: 0px;
+	border-right: 1px solid #d8d8d8;
+	margin-right: 201px;
+}
+.imic-group-tab-link-a span.group_title {
+	padding-left: 0px;
+	padding-right: 30px;
+}
+.imic_slider {
+	margin-left: 0px;
+	margin-right: 15px;
+}

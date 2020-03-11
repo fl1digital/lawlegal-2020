@@ -352,13 +352,14 @@ body {
 	color:#666;
 }
 .footer .left {
-	width:500px;
+	width:50%;
 	float:left;
-	padding:0 0 0 6px;
+	/* padding:0 0 0 6px; */
 	line-height:16px;
 }
 .footer .right {
-	padding:37px 6px 0 0;
+	/* padding:37px 6px 0 0; */
+	width: 50%
 }
 .footer-link {
 	padding-bottom:21px;
